@@ -1,11 +1,16 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import numpy as np
+import plotly.express as px
+import os
 
-# Load Data
-df = pd.read_csv("train_data_clean.csv")
-df.columns = df.columns.str.strip() 
+# ======================
+# Read CSV safely from same folder
+# ======================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(BASE_DIR, "train_data_clean.csv")
+
+df = pd.read_csv(file_path)
 
 
 # Sidebar
@@ -94,5 +99,6 @@ fig_reasons = px.bar(
     barmode="group"
 )
 st.plotly_chart(fig_reasons, use_container_width=True)
+
 
 
