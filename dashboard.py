@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 # Load Data
-df = pd.read_csv("C:/Users/basha/OneDrive/Desktop/Railway/train_data_clean.2.csv")
+df = pd.read_csv("train_data_clean.csv")
 df.columns = df.columns.str.strip() 
 
 
@@ -94,3 +94,4 @@ fig_reasons = px.bar(
     barmode="group"
 )
 st.plotly_chart(fig_reasons, use_container_width=True)
+
