@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
+import numpy as np
 
 # Load Data
 df = pd.read_csv("train_data_clean.csv")
@@ -94,4 +94,5 @@ fig_reasons = px.bar(
     barmode="group"
 )
 st.plotly_chart(fig_reasons, use_container_width=True)
+
 
