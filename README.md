@@ -6,15 +6,23 @@ The performance and ticket sales forecaster dashboard were powered by Python, Pa
 ## 2. Problem Statement
 National Rail requires a business intelligence tool that enables decision makers to:
 •	Identify the most popular and high demand routes.
+
 •	Identify peak travel periods within the week and across differing time slots.
+
 •	Break down revenue by category of tickets and by classes.
+
 •	Assess punctuality and determine the reasons and sources of delays and cancellations.
+
 Without these insights, it would not be possible to allocate resources optimally, schedule effectively, and enhance the experience of the passengers.
 ## 3. Goals
 The goals of the project will be:
+
 •	Establish the top-selling train routes.
+
 •	Identify the peak travel periods by the day and time.
+
 •	Assess ticket revenue by type and class.
+
 •	Evaluate punctuality and identify the delays and cancellations.
 ## 4. Dataset
 •	Source: Dataset pulled from the Maven Rail Challenge (mock datasets simulating ticket sales for the National Rail for the period January to April 2024).
