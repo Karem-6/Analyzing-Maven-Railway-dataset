@@ -50,4 +50,7 @@ The project aims to supply decision makers with:
 •	Suggestions to improve service and operational efficiency as well as passenger satisfaction.
 8. Acknowledgements
 First and foremost, we appreciate the invaluable guidance from our instructor and the diverse contributions from each team member while preparing this proposal. This project aims to use open-source software tools and the Maven Rail Challenge Dataset to demonstrate practical applications for Business Intelligence.
+## 8. Acknowledgements
+First and foremost, we appreciate the invaluable guidance from our instructor and the diverse contributions from each team member while preparing this proposal. This project aims to use open-source software tools and the Maven Rail Challenge Dataset to demonstrate practical applications for Business Intelligence.
+
 
